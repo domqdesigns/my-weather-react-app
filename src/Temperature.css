@@ -1,0 +1,41 @@
+li {
+    list-style-type: none;
+    font-size: 15px;
+    font-style: oblique;
+    left: -30px;
+    position: relative;
+  }
+  .temperature {
+    color: rgb(33, 33, 33);
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 1;
+    position: relative;
+    left: 10px;
+  }
+  span {
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .units {
+    position: relative;
+    top: -100px;
+    left: 10px;
+    top: -35px;
+  }
+  .active {
+    color: rgb(33, 33, 33);
+    text-decoration: none;
+  }
+  
+  img {
+    font-size: 65px;
+    font-weight: 400;
+    line-height: 1;
+    position: relative;
+    top: -15px;
+  }
+  h4 {
+    font-size: 13px;
+    font-style: oblique;
+  }
