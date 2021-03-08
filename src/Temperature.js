@@ -21,7 +21,7 @@ export default function Temperature() {
         <h1>
           <span>{weatherData.city}</span>
         </h1>
-        <h3 className="week">01/25-01/31</h3>
+        <h3 className="week">03/08-03/14</h3>
 
         <form className="search-form">
           <div className="row">
