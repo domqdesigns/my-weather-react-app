@@ -1,10 +1,11 @@
 import React from "react";
 import "./Temperature.css";
+import FormattedDate from "./FormattedDate";
 
 export default function Temperature() {
   let weatherData = {
     city: "Orlando",
-    date: "Friday 11:52",
+    date: new Date(response.data.dt * 1000),
     description: "Clear",
     humidity: "80",
     imgUrl: "https://ssl.gstatic.com/onebox/weather/64/sunny.png",
@@ -47,7 +48,7 @@ export default function Temperature() {
         <hr />
 
         <ul>
-          <li>{weatherData.date}</li>
+          <li><FormattedDate date={weatherData.date} /></li>
           <li>{weatherData.description}</li>
         </ul>
         <div className="row">
